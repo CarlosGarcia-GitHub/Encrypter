@@ -13,25 +13,29 @@
     <div class="container">
 
         <header class="logo">
-            <img src="assets/logo.png" alt="Logo principal de la página">
+            <a href="index.html"><img src="assets/logo.png" alt="Logo principal de la página"></a> 
         </header>
 
         <div class="left-section">
-            <textarea type="text" name="texto" id="texto" placeholder="Ingrese el texto aquí"></textarea>
+            <textarea type="text" id="inputText" placeholder="Ingrese el texto aquí"></textarea>
             <p>Solo letras minúsculas y sin acentos</p>
 
             <div class="buttons">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-desencriptar">Desencriptar</button>
+                <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
             </div>
         </div>
 
         <div class="right-section">
-            <img src="assets/dibujo.png" alt="" class="dibujo">
-            <p class="texto-dibujo">Ningún mensaje fue encontrado</p>
-            <p class="texto-dibujo2">Ingrese el texto que desees encriptar o desencriptar.</p>
+            <img src="assets/dibujo.png" alt="Dibujo de persona con una lupa mirando un diamane" class="dibujo" id="dibujo">
+            <p class="texto-dibujo" id="rightText">Ningún mensaje fue encontrado</p>
+            <p class="texto-dibujo2" id="rightText2">Ingrese el texto que desees encriptar o desencriptar.</p>
+            <button id="copy" onclick="copiarTexto()">Copiar</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
+
     
 </body>
 </html>

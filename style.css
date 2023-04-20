@@ -1,154 +1,183 @@
 body {
-    background: #D8DFE8;
-    font-family: 'inter', sans-serif;
+  background: #d8dfe8;
+  font-family: "inter", sans-serif;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
-header img{
-    margin-top: 20px;
+header img {
+  margin-top: 20px;
 }
 
 .left-section {
-    width: 40%;
-    height: 80%;
-    margin: 30px;
-    float: left;
-    position: relative;
+  width: 40%;
+  height: 80%;
+  margin: 30px;
+  float: left;
+  position: relative;
 }
 
 .left-section p {
-    font-size: 12px;
-    margin-bottom: 16px;
-    color: #495057;
-    font-weight: 600;
-    text-align: center;
+  font-size: 12px;
+  margin-bottom: 16px;
+  color: #495057;
+  font-weight: 600;
+  text-align: center;
 }
 
-#texto {
-    width: 85%;
-    height: 90%;
-    background: #D8DFE8;
-    border: none;
-    outline: none;
-    resize: none;
-    font-size: 32px;
-    line-height: 48px;
-    color: #0A3871;
-    margin-left: 50px;
+#inputText {
+  width: 85%;
+  height: 90%;
+  background: #d8dfe8;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0a3871;
+  margin-left: 50px;
 }
 
-#texto::placeholder {
-    color: #0A3871;
-    opacity: 0.8;
+#inputText::placeholder {
+  color: #0a3871;
+  opacity: 0.8;
 }
 
 .buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    width: 85%;
-    height: 10%;
-    margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 85%;
+  height: 10%;
+  margin-left: 50px;
 }
 
 .btn-encriptar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    font-size: 16px;
-    background: #0A3871;
-    color: #fff;
-    border-radius: 24px;
-    padding: 24px;
-    gap:8px;
-    width: 50%;
-    margin-top: 10px;
-    border: none;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 16px;
+  background: #0a3871;
+  color: #fff;
+  border-radius: 24px;
+  padding: 24px;
+  gap: 8px;
+  width: 50%;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-encriptar:hover {
-    background: #D8DFE8;
-    color: #0A3871;
-    border: 1px solid #0A3871;
-    font-size: 18px;
-    width: 55%;
+  background: #d8dfe8;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+  font-size: 18px;
 }
 
 .btn-desencriptar:hover {
-    background: #0A3871;
-    color: #fff;
-    font-size: 18px;
-    width: 55%;
+  background: #0a3871;
+  color: #fff;
+  font-size: 18px;
 }
 
 .btn-encriptar:active {
-    font-size: 16px;
-    width: 50%;
-    background: #0A3871;
-    color: #fff;
+  font-size: 16px;
+  width: 50%;
+  background: #0a3871;
+  color: #fff;
 }
 
 .btn-desencriptar:active {
-    font-size: 16px;
-    width: 50%;
-    background: #D8DFE8;
-    color: #0A3871;
+  font-size: 16px;
+  width: 50%;
+  background: #d8dfe8;
+  color: #0a3871;
 }
 
 .btn-desencriptar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    font-size: 16px;
-    background: #D8DFE8;
-    color: #0A3871;
-    border-radius: 24px;
-    padding: 24px;
-    gap:8px;
-    width: 50%;
-    margin-top: 10px;
-    border: 1px solid #0A3871;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 16px;
+  background: #d8dfe8;
+  color: #0a3871;
+  border-radius: 24px;
+  padding: 24px;
+  gap: 8px;
+  width: 50%;
+  margin-top: 10px;
+  border: 1px solid #0a3871;
+  cursor: pointer;
 }
 
 .right-section {
-    background: #fff;
-    width: 40%;
-    height: 80%;
-    float: right;
-    position: relative;
-    margin: 30px;
-    border-radius: 32px;
-    text-align: center;
+  background: #fff;
+  width: 40%;
+  height: 80%;
+  float: right;
+  position: relative;
+  margin: 30px;
+  border-radius: 32px;
+  text-align: center;
 }
 
 .dibujo {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .texto-dibujo {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    display: inline-block;
-    width: 336px;
-    position: relative;
-    top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  display: inline-block;
+  width: 336px;
+  position: relative;
+  top: 20px;
 }
 
-
 .texto-dibujo2 {
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  width: 336px;
+  position: relative;
+  top: 40px;
+  border: none;
+}
+
+#copy {
+  position: relative;
+  right: 40px;
+  bottom: 10px;
+  font-size: 16px;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+  margin-left: 33%;
+  margin-top: 90%;
+  padding: 24px;
+  width: 50%;
+  height: 10%;
+  background: #d8dfe8;
+  border-radius: 24px;
+  display: none;
+}
+
+#copy:hover {
+    background-color: #0a3871;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#copy:active {
     font-size: 16px;
-    line-height: 24px;
-    display: inline-block;
-    width: 336px;
-    position: relative;
-    top: 40px;
+    width: 50%;
+    background: #d8dfe8;
+    color: #0a3871;
 }
