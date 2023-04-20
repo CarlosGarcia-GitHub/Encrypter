@@ -1,5 +1,8 @@
 body {
-  background: #d8dfe8;
+  /* background: url(/images/wave.svg); */
+  /* background-color: #d8dfe8; */
+  background: linear-gradient(180deg, rgba(216,223,232,1) 0%, rgba(10,56,113,1) 100%);
+  background-repeat: no-repeat;
   font-family: "inter", sans-serif;
 }
 
@@ -13,23 +16,30 @@ header img {
 }
 
 .left-section {
-  width: 40%;
+  width: 50%;
   height: 80%;
   margin: 30px;
   float: left;
   position: relative;
 }
 
+.icon {
+    position: relative;
+    width: 10px;
+    right: 3px;
+}
+
 .left-section p {
   font-size: 12px;
+  margin-top: 5px;
   margin-bottom: 16px;
-  color: #495057;
+  color: #000;
   font-weight: 600;
   text-align: center;
 }
 
 #inputText {
-  width: 85%;
+  width: 90%;
   height: 90%;
   background: #d8dfe8;
   border: none;
@@ -118,13 +128,14 @@ header img {
 
 .right-section {
   background: #fff;
-  width: 40%;
+  width: 35%;
   height: 80%;
   float: right;
   position: relative;
   margin: 30px;
   border-radius: 32px;
   text-align: center;
+  box-shadow: 20px 20px 10px 0px rgba(0,0,0,0.7);
 }
 
 .dibujo {
@@ -139,6 +150,7 @@ header img {
   width: 336px;
   position: relative;
   top: 20px;
+  color: #0a3871;
 }
 
 .texto-dibujo2 {
@@ -149,12 +161,13 @@ header img {
   position: relative;
   top: 40px;
   border: none;
+  color: #0a3871;
 }
 
 #copy {
   position: relative;
   right: 40px;
-  bottom: 10px;
+  bottom: 35px;
   font-size: 16px;
   color: #0a3871;
   border: 1px solid #0a3871;
